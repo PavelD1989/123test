@@ -1,6 +1,9 @@
--install git CMD https://git-scm.com/downloads
--git config 
+-download GIT cmd https://git-scm.com/downloads
+-git config
 --git config --global user.name "Your Name"
 --git config --global user.email "Your Email"
--git clone https://github.com/PavelD1989/DubouskiPavel_Test.git
--make new branch QAP12-onl_DubouskiPavel in main branch "DubouskiPavel_Test"
+-git clone https://github.com/PavelD1989/PavelDubouski_QAP12-onl_MAIN.git
+-make second branch
+-make readme.txt with steps
+-make PL
+
