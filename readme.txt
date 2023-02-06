@@ -1,10 +1,3 @@
--download GIT cmd https://git-scm.com/downloads
--git config
---git config --global user.name "Your Name"
---git config --global user.email "Your Email"
--git clone https://github.com/PavelD1989/PavelDubouski_QAP12-onl_MAIN.git
--make second branch
--make readme.txt with steps
--make PL
--сopy link to PL and send to Elena
-
+git clone https://github.com/qahelping/python_httpbin.git - clone project
+pip3 install -r requirements.txt - install requires
+python3 -m pytest test/test_first_example.py - start test
