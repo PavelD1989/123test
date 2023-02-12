@@ -56,7 +56,7 @@ print(a_second_element)
 a_str = "employ"
 b_str = "employment"
 val_include_or_not = a_str in b_str
-if val_include_or_not == True:
+if val_include_or_not is True:
     print("Строка '", a_str, "' входит в строку '", b_str, "'")
 else:
     print("Строка '", a_str, "' не входит в строку '", b_str, "'")
@@ -79,3 +79,31 @@ arr_a = [1, 5, 2, 9, 2, 9, 1]
 for i in range(len(arr_a)):
     if 1 == arr_a.count(arr_a[i]):
         print("Уникальное число списка: ", arr_a[i])
+
+# Задание 1.3
+# 1) x = 17 / 2 * 3 + 2
+# 2) x = 2 + 17 / 2 * 3
+# 3) x = 19 % 4 + 15 / 2 * 3
+# 4) x = (15 + 6) - 10 * 4
+# 5) x = 17 / 2 % 2 * 3**3
+
+print(17 / 2 * 3 + 2)
+print(2 + 17 / 2 * 3)
+print(19 % 4 + 15 / 2 * 3)
+print((15 + 6) - 10 * 4)
+print(17 / 2 % 2 * 3 ** 3)
+
+# Задание 1.4
+# Создать три переменные, содержащие возраст трех
+# ближайших соседей, найти сумму и вывести ее на
+# экран.
+# Создать еще одну переменную равную среднему
+# арифметическому возрасту, и вывести это значение
+# на экран.
+person_a = 49
+person_b = 50
+person_c = 23
+all_person_summ = person_a + person_b + person_c
+print('Сумма возрастов:', all_person_summ)
+middle_age = all_person_summ // 3
+print("Средний возраст:", middle_age)
