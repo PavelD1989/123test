@@ -81,6 +81,13 @@ from HW_4.while_func_9 import (
     find_grandfather_and_grandson_old,
 )
 
+from HW_6.HW_6_file_with_tasks import (
+    output_from_file,
+    even_and_odd_numbers,
+    squares_of_real_numbers,
+    swap_file_contents,
+)
+
 # __________________________________________________________
 # HW_3
 # 1
@@ -355,6 +362,7 @@ print(
 print(f"Сумма отрицательных чисел: {integer_operations(list_integers_numbers)[1]}")
 print(f"Количество отрицательных чисел: {integer_operations(list_integers_numbers)[2]}")
 
+
 # 4
 dict_swimmers = {
     "Бекиш Александр": 21.07,
@@ -393,3 +401,18 @@ print(
 
 # 4
 find_grandfather_and_grandson_old()
+
+
+# HW_6
+
+# 1
+print(output_from_file("file1.txt"))
+
+# 2
+print(even_and_odd_numbers("file2.txt"))
+
+# 3
+print(squares_of_real_numbers("file3.txt"))
+
+# 4
+print(swap_file_contents("first.dat", "asdasda", "second.dat", "zxcxc"))
