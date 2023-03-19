@@ -88,6 +88,8 @@ from HW_6.HW_6_file_with_tasks import (
     swap_file_contents,
 )
 
+from HW_7.HW_7 import (greeting, second_greetings, all_positive, length_of_sentence)
+
 # __________________________________________________________
 # HW_3
 # 1
@@ -416,3 +418,30 @@ print(squares_of_real_numbers("file3.txt"))
 
 # 4
 print(swap_file_contents("first.dat", "asdasda", "second.dat", "zxcxc"))
+
+
+# HW_7
+
+# 1
+user_name = "Pavel"
+print(greeting(user_name))
+
+
+# 2
+names = ["Pasha", "Sasha", "Dima", "Tanya"]
+print(second_greetings(names))
+
+
+# 3
+
+print(next(all_positive))
+print(next(all_positive))
+print(next(all_positive))
+print(next(all_positive))
+print(next(all_positive))
+print(next(all_positive))  # появление исключения StopIteration
+
+
+# 4
+str_with_sentence = "thequick brown fox jumps over the lazy dog"
+print(list(length_of_sentence(str_with_sentence)))
